@@ -47,7 +47,7 @@ Two regression models were trained and evaluated.
 | Model             |    RMSE |     MAE | R² Score |
 | ----------------- | ------: | ------: | -------: |
 | Linear Regression |  70,059 |  50,679 |    0.625 |
-| Random Forest     | 48,941* | 31,628* |   0.817* |
+| Random Forest     | 48,941* | 31,628* |   0.78* |
 
 * These were the results of the earlier unrestricted Random Forest model. The final deployed model uses a limited tree depth to reduce model size and make deployment easier, with an R² score of approximately 0.78.
 
